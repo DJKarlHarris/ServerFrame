@@ -1,0 +1,1 @@
+/usr/bin/c++ -fPIC  -rdynamic -O0 -ggdb -std=c++11 -Wall -Wno-deprecated -Werror -Wno-unused-function -shared -Wl,-soname,liblog.so -o ../lib/liblog.so CMakeFiles/log.dir/logger/log.cpp.o 

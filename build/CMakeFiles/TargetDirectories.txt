@@ -1,0 +1,4 @@
+/home/workspace/HttpServer/build/CMakeFiles/log.dir
+/home/workspace/HttpServer/build/CMakeFiles/test.dir
+/home/workspace/HttpServer/build/CMakeFiles/edit_cache.dir
+/home/workspace/HttpServer/build/CMakeFiles/rebuild_cache.dir
