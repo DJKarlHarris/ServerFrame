@@ -47,7 +47,7 @@ class LogEvent {
         uint32_t m_threadId = 0 ;        //线程ID
         uint32_t m_fiberId = 0;         //协程ID
         uint64_t m_time;                //时间戳
-        std::stringstream m_ss;
+        std::stringstream m_ss;         //消息
 };  
 
 //日志级别
@@ -115,6 +115,7 @@ class Logger : public std::enable_shared_from_this<Logger> {
         void error(LogEvent::ptr event);
         void fatal(LogEvent::ptr event);
 
+        //添加删除appender
         void addAppender(LogAppender::ptr logappender);
         void delAppender(LogAppender:: ptr logappender);
 
