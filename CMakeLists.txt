@@ -14,8 +14,8 @@ ADD_LIBRARY(log SHARED ${LIB_SRC})
 ADD_EXECUTABLE(test tests/test.cpp)
 
 #连接动态库
-add_dependencies(test log)
-target_link_libraries(test log)
+ADD_DEPENDENCIES(test log)
+TARGET_LINK_LIBRARIES(test log)
 
 #设置可执行文件的输出维持
 SET(EXECUTABLE_OUTPUT_PATH ${PROJECT_SOURCE_DIR}/bin)
